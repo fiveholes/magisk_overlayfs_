@@ -18,7 +18,7 @@ mkdir -p out/magisk-module/libs
 ( cat << EOF
 arm64-v8a aarch64-linux-android34-clang++
 armeabi-v7a armv7a-linux-androideabi34-clang++
-x86 i686-linux-android31'4-clang++
+x86 i686-linux-android34-clang++
 x86_64 x86_64-linux-android34-clang++
 EOF
 ) | while read line; do
